@@ -13,7 +13,7 @@ async function main() {
         env: {},
         program,
         args: [],
-        stdin,
+        stdin: input,
     });
     console.log('result:', result);
 }
